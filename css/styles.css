@@ -127,13 +127,18 @@ span.header-logo-second-word {
 /* ===============/COMPONENTS=========== */
 
 /* ===============HEADER============ */
+.page-header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    min-width: 1440px;
+    border-bottom: 1px solid #E7E9FC;
+}
+
+
 .page-header-container {
     display: flex;
     align-items: center;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    border-bottom: 1px solid #E7E9FC;
-}
+    }
 
 .page-nav {
     display: flex;
@@ -217,15 +222,15 @@ span.header-logo-second-word {
     line-height: 1.5;
     letter-spacing: 0.04em;
     background: #4D5AE5 ;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
     color: #FFFFFF;
+    border-width: 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-btn:hover
 .modal-btn:focus {
     background: #404BBF;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
 
@@ -346,6 +351,9 @@ span.footer-logo-second-word {
     justify-content: center;
 }
 
+.btn-item {
+    margin-bottom: 72px;
+}
 .btn-item:not(:last-child) {
     margin-right: 24px;
 }
@@ -353,7 +361,6 @@ span.footer-logo-second-word {
     border: 1px solid #E7E9FC;
     border-radius: 4px;
     padding: 12px 24px;
-    margin-bottom: 72px;
     min-width: 69px;
     font-weight: 500;
     font-size: 16px;
@@ -387,8 +394,10 @@ span.footer-logo-second-word {
 
 .portfolio-card-content-wrapper {
     padding-top: 32px;
-    margin-bottom: 32px;
-    border: 1px solid #E7E9FC;
+    padding-bottom: 32px;
+    border-left: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio-title {
