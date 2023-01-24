@@ -344,16 +344,18 @@ span.footer-logo-second-word {
 }
 
 /* =============PORTFOLIO HERO=========== */
+.project-cards-section {
+    padding-top: 96px;
+}
+
 
 .btn-list {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.btn-item {
     margin-bottom: 72px;
 }
+
 .btn-item:not(:last-child) {
     margin-right: 24px;
 }
